@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>projects - drag and drop</title>
+    <title>typescript - drag and drop</title>
     <script src="/dist/app.js" defer></script>
   </head>
   <body>
@@ -27,7 +27,11 @@
       </form>
     </template>
     <template id="single-project">
-      <li></li>
+      <li draggable="true">
+        <h2></h2>
+        <h3></h3>
+        <p></p>
+      </li>
     </template>
     <template id="project-list">
       <section class="projects">
